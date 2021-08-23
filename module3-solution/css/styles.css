@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: #A9E0F4;
+    font-family: 'Prompt', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #2D48DB;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #fff;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background-color: #2A1840;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #2A1840;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/* END HEADER */
+
+/* HOME Page */
+#menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* END HOME PAGE */
+
+/* SINGLE ITEM */
+.menu-item-tile {
+    /*margin: 10px;*/ 
+    margin-bottom: 25px;
+    /*background-color: #FFAFE2;*/
+}
+.menu-item-tile hr {
+    width: 80%;
+}
+
+h3.menu-item-title {
+    margin: 0 0 10px;
+}
+
+#chicken, #beef, #sushi {
+    text-align: center;
+    background-color: #FFAFE2;
+}
+
+div h3, div p {
+    background-color: #FFAFE2;
+}
+
+/* END SINGLE ITEM */
+
+/*************** Extra small devices only ********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+}
+
+/*********** Super extra small devices Only :-) (e.g., iPhone 4) *******/
+@media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+    /* End Header */
+}
